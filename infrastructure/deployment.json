@@ -6,7 +6,7 @@
             "type": "string",
             "defaultValue": "[guid(resourceGroup().id)]",
             "metadata": {
-                "description": "Name of Bpp Service plan"
+                "description": "Name of BppC Service plan"
             }
         },
         "HostingPlanSku": {
@@ -23,7 +23,7 @@
                 "S3",
                 "P1",
                 "P2",
-                "P3",
+               
                 "P4"
             ],
             "metadata": {
